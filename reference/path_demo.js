@@ -11,3 +11,6 @@ console.log('File Extension', path.extname(__filename));
 
 // Create path object
 console.log('Create path object', path.parse(__filename));
+
+// Concatenate paths
+console.log('Concatenate paths', path.join(__dirname, 'test', 'hello.html'));
