@@ -15,3 +15,5 @@ console.log('Free Memory', os.freemem());
 // Total Memory
 console.log('Total Memory', os.totalmem());
 
+// Home Dir
+console.log('Home Dir', os.homedir());
