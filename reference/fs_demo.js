@@ -12,3 +12,9 @@ fs.writeFile(path.join(__dirname, '/test', 'hello.txt'), 'Hello World', err => {
   if (err) throw err;
   console.log('File created...')
 });
+
+// Read File
+fs.readFile(path.join(__dirname, '/test', 'hello.txt'), { encoding: 'utf-8'}, (err, data) => {
+  if (err) throw err;
+  console.log('Reading file:', data);
+});
