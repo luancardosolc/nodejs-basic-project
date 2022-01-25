@@ -118,3 +118,6 @@ dist
 #IDEs
 .vscode/
 .idea/
+
+# Others
+reference/test/
