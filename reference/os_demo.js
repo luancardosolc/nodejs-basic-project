@@ -7,4 +7,11 @@ console.log('Plataform', os.platform());
 console.log('CPU Arch', os.arch());
 
 // Core Info
-console.log('CPU Arch', os.cpus());
+console.log('Core Info', os.cpus());
+
+// Free Memory
+console.log('Free Memory', os.freemem());
+
+// Total Memory
+console.log('Total Memory', os.totalmem());
+
