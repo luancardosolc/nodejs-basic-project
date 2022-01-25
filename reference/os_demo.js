@@ -17,3 +17,6 @@ console.log('Total Memory', os.totalmem());
 
 // Home Dir
 console.log('Home Dir', os.homedir());
+
+// Uptime
+console.log('Uptime', os.uptime());
