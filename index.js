@@ -7,9 +7,8 @@ const server = http.createServer((req, res) => {
       res.end('<h1>Home</h1>');
    }
    if (req.url === '/about') {
-      res.end('<h1>About</h1>');
+      res.end('<h1>About page</h1>');
    }
-   res.end();
 });
 
 // Variables
