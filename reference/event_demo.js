@@ -10,4 +10,6 @@ const myEmitter = new MyEmitter();
 myEmitter.on('event', (event) => console.log('Event Fired!', event));
 
 // Init event
-myEmitter.emit('event', { myEventProp: 'myEventPropString'});
+myEmitter.emit('event', { myEventProp: 'Event 1 myEventPropString'});
+myEmitter.emit('event', { myEventProp: 'Event 2 myEventPropString'});
+myEmitter.emit('event', { myEventProp: 'Event 3 myEventPropString'});
